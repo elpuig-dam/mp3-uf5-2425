@@ -50,7 +50,7 @@ public class ExerciciL {
         };
 
 
-        // 5 - Omplir map. Canviar el for-llop per un forEach amb lambda
+        // 5 - Omplir map. Canviar el for-loop per un forEach amb lambda
         for(Persona per : llistaPersones) {
             mapPersones.put(per.getAge(),1);
         }
